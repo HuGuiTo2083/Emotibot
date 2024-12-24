@@ -1,0 +1,356 @@
+body {
+    background-image: linear-gradient(70deg,  #DC9B23, #FFE946);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+@font-face {
+    font-family: Bakery;
+    src: url(../Fuentes/Bakery.ttf);
+  }
+
+  @font-face {
+    font-family: Workspace;
+    src: url(../Fuentes/Workspace.otf);
+  }
+  
+  @font-face {
+    font-family: Chatkids;
+    src: url(../Fuentes/Chatkids.otf);
+  }
+
+  @font-face {
+    font-family: Milky_Cream;
+    src: url(../Fuentes/Milk_Cream.otf);
+  }
+
+  
+  
+  @font-face {
+    font-family: Tha;
+    src: url(../Fuentes/THAILAND.TTF);
+  }
+
+
+  @font-face {
+    font-family: Ame;
+    src: url(../Fuentes/American\ Captain.otf);
+  }
+
+  @font-face {
+    font-family: Arista;
+    src: url(../Fuentes/Arista-Pro-Alternate-Light-trial.ttf);
+  }
+
+  @font-face {
+    font-family: Arista2;
+    src: url(../Fuentes/Arista-Pro-Bold-trial.ttf);
+  }
+
+
+.ball{
+    
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: #5586FF;
+
+}
+
+.barNav{
+   display: flex;
+   justify-content: center;
+  height: 80px;
+  width: 100%;
+  position: relative;
+  
+}
+
+.jCenter{    
+    justify-content: center;
+}
+
+.dFlex{
+    display: flex;
+}
+
+.dInline{
+    display: inline-block;
+}
+
+.aItems{
+    align-items: center;
+}
+
+.tCenter{
+    text-align: center;
+}
+
+.title{
+    
+   font-family: Milky_Cream;
+font-size: 35px;
+color: white;
+
+
+}
+
+.w100{
+width: 100%;
+
+}
+
+#dvTitle{
+
+     height: 47%;
+}
+
+.col{
+   flex: 1;
+   height: 30%;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.subtitles{
+font-size: 10px;
+font-family: Workspace;
+color: white;
+
+}
+
+.fWrap{
+    flex-wrap: wrap;
+}
+.bColor{
+    background-color: aqua;
+}
+
+.oHidden{
+overflow: hidden;
+
+}
+
+.fila{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.bColor2{
+    background-color: brown;
+}
+
+.barWhite{
+  height: 3px;
+  background-color: white;
+  width: 50%;
+
+}
+
+.h100{ 
+    height: 100%;
+}
+
+.h50{ 
+    height: 50%;
+}
+
+.sBetween{
+    justify-content: space-between;
+}
+
+.pB-0{
+  padding-bottom: 0px;
+
+}
+
+.btMenu{
+ border: none;
+ background-color: transparent;
+ cursor: pointer;
+ transition: 0.5s;
+ border-radius: 2rem;
+}
+
+.btMenu:hover{
+  background-color: #5a7fdd;
+  
+}
+
+#dvMainContent{
+  border-radius: 3rem;
+  background-color: #5586FF;
+  position: absolute;
+  top: 30%;
+  width: 60%;
+  height: 170px;
+  left: -5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+#lbQuienes{
+    font-family: Ame;
+    font-size: 25px;
+    color: black;
+    margin-bottom: 0px;
+}
+
+#pQuienes{
+    font-family: Arista2;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#lbQuienes2{
+    font-family: Workspace;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+}
+
+.ball-1{
+  width: 7%;
+  height: 14%;
+  position: absolute;
+  z-index: 1;
+}
+
+.ball-2{
+  width: 11%;
+  height: 23%;
+  position: absolute;
+  z-index: 1;
+
+}
+
+.ball-3{
+  width: 13%;
+  height: 27%;
+  position: absolute;
+  z-index: 1;
+}
+
+#b1{
+  top: 50%;
+  left: 26%;
+}
+
+#b11{
+  top: 37%;
+  left: 50%;
+}
+
+#b2{
+  top: 45%;
+  left: 35%;
+}
+
+#b21{
+  top: 25%;
+  left: 33%;
+}
+
+#b22{
+  top: 23%;
+  left: 15%;
+}
+
+#b3{
+  top: 41%;
+  left: 3%;
+}
+
+#b31{
+  top: 22%;
+  left: -4%;
+}
+
+
+#imgLogo{
+ border-radius: 1rem;
+ width: 22%;
+ height: auto;
+ position: absolute;
+ top: 22%;
+ left: 69%;
+ border:#5586FF 5px solid;
+
+}
+
+.barInf{
+  display: flex;
+  justify-content: center;
+ height: 90px;
+ width: 100%;
+ position: absolute;
+ background-color: #5586FF;
+ top: 85%;
+ z-index: 2;
+ 
+}
+
+
+#pContactanos{
+  text-align: center;
+  color:  white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+    font-size: 15px;
+}
+
+a{
+  color: black;
+  font-weight: 800;
+}
+
+#b32{
+  top: 71%;
+  left: -6%;
+}
+
+#b33{
+  top: 75%;
+  left: 85%;
+}
+
+#b23{
+  top: 75%;
+  left: 37%;
+}
+
+#b24{
+  top: 71%;
+  left: 94%;
+}
+
+#b25{
+  top: 79%;
+  left: 15%;
+}
+
+#b12{
+  top: 81%;
+  left: 5%;
+}
+
+#b13{
+  top: 80%;
+  left:63%;
+}
+
